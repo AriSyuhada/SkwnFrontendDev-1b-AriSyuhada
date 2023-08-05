@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fefefe;
+}
+.w {
+  width: var(--w);
+}
+.h {
+  height: var(--h);
+}
+.ml {
+  margin-left: var(--ml);
+}
+.mt {
+  margin-top: var(--mt);
+}
+.mr {
+  margin-right: var(--mr);
+}
+.mb {
+  margin-bottom: var(--mb);
+}
+.mh {
+  margin-left: var(--mh);
+  margin-right: var(--mh);
+}
+.mv {
+  margin-top: var(--mv);
+  margin-bottom: var(--mv);
+}
+.m {
+  margin: var(--m);
+}
+.pl {
+  padding-left: var(--pl);
+}
+.pt {
+  padding-top: var(--pt);
+}
+.pr {
+  padding-right: var(--pr);
+}
+.pb {
+  padding-bottom: var(--pb);
+}
+.ph {
+  padding-left: var(--ph);
+  padding-right: var(--ph);
+}
+.pv {
+  padding-top: var(--pv);
+  padding-bottom: var(--pv);
+}
+.p {
+  padding: var(--p);
+}
+.flex-space {
+  flex: var(--flex);
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-between {
+  align-items: space-between;
+}
+.align-items-evenly {
+  align-items: space-evenly;
+}
+.primary-blue-color {
+  background-color: #1571f9;
+}
+.primary-blue-text {
+  color: #1571f9;
+}
+.light-blue-color {
+  background-color: #e4edfe;
+}
+.light-blue-text {
+  color: #e4edfe;
+}
+.primary-red-color {
+  background-color: #e2164f;
+}
+.primary-red-text {
+  color: #e2164f;
+}
+.light-red-color {
+  background-color: #ffe7ee;
+}
+.light-red-text {
+  background-color: #ffe7ee;
+}
+.white-color {
+  background-color: white;
+}
+.white-text {
+  color: white;
+}
+.grey-color {
+  background-color: grey;
+}
+.grey-text {
+  color: grey;
+}
+.font-size {
+  font-size: var(--font-size);
+}
+.bold {
+  font-weight: bold;
+}
+.thin {
+  font-weight: thin;
+}
+.border-radius {
+  border-radius: var(--border-radius);
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-scroll {
+  overflow: scroll;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.pointer {
+  cursor: pointer;
+}
+.gradient-top-left-bottom-right {
+  background-image: linear-gradient(to bottom right, var(--top-left-color), var(--bottom-right-color));
+}
+.box-shadow {
+  box-shadow: 5px 5px lightgray;
+}
+
+.profile {
+  top: -25%;
+  left: -15%;
+}
+.cardWrapper {
+  flex-wrap: wrap;
+}
+.activityCard {
+  filter: drop-shadow(0 1px 1px grey);
+}
